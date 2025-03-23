@@ -1,0 +1,12 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/block.json",
+    "apiVersion": 3,
+    "name": "ourplugin/are-you-paying-attention",
+    "title": "Are You Paying Attention",   
+    "editorScript": "file:./build/index.js",
+    "script": "file:./build/frontend.js",   
+    "editorStyle": "file:./build/index.css",
+    "style": [ "file:./build/frontend.css" ],
+    "viewStyle": [ "file:./build/view.css" ],
+    "render": "file:./build/render.php"
+}
